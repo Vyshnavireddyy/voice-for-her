@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voice for Her</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Girl Helpline Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #c2185b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f06292;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .emergency {
+      background-color: #ffcdd2;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    form {
+      background-color: #f8bbd0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #880e4f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #c2185b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Voice for Her!</h1>
-  <p>This is your homepage content.</p>
+  <header>
+    <h1>Girl Helpline Support</h1>
+    <p>We're here for you. You're not alone.</p>
+  </header>
+
+  <nav>
+    <a href="#emergency">Emergency</a>
+    <a href="#chat">Chat</a>
+    <a href="#report">Report</a>
+    <a href="#tips">Safety Tips</a>
+  </nav>
+
+  <div class="container">
+    <section id="emergency" class="emergency">
+      <h2>🚨 Emergency Contacts</h2>
+      <p><strong>Call 112</strong> - National Emergency Helpline</p>
+      <p><strong>1091</strong> - Women Helpline (India)</p>
+      <p>Email: support@girlhelpline.org</p>
+    </section>
+
+    <section id="chat">
+      <h2>💬 Chat With Us</h2>
+      <p>We provide 24/7 confidential support. Our trained volunteers are here to help you. [Chat functionality coming soon]</p>
+    </section>
+
+    <section id="report">
+      <h2>📢 Report an Incident</h2>
+      <form>
+        <label for="name">Your Name (optional):</label>
+        <input type="text" id="name" name="name">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="incident">Describe the Incident:</label>
+        <textarea id="incident" name="incident" rows="5" required></textarea>
+
+        <button type="submit">Submit Report</button>
+      </form>
+    </section>
+
+    <section id="tips">
+      <h2>🛡️ Safety Tips</h2>
+      <ul>
+        <li>Trust your instincts—if it feels wrong, it probably is.</li>
+        <li>Keep emergency numbers saved on speed dial.</li>
+        <li>Use trusted public transport or ride services.</li>
+        <li>Let friends/family know where you are when going out.</li>
+        <li>Carry self-defense tools (pepper spray, safety alarm).</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Girl Helpline Support. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
